@@ -35,27 +35,6 @@ public class MainActivity extends AppCompatActivity {
                         mRecyclerView.setAdapter(adapter);
                     }
                 });
-
-        /*String msg = "";
-        for (User u : users) {
-          Log.i(TAG, u.firstName + " " + u.lastName);
-          msg += String.format(
-              Locale.getDefault(),
-              "%s %s %s\n",
-              u.firstName, u.lastName, DateFormatter.formatForUi(u.birthDate)
-          );
-        }
-
-        final String message = msg;
-        executors.mainThread().execute(new Runnable() {
-          @Override
-          public void run() { // main thread
-            new AlertDialog.Builder(MainActivity.this)
-                .setMessage(message)
-                .setPositiveButton("OK", null)
-                .show();
-          }
-        });*/
             }
         });
     }
